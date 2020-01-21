@@ -1,0 +1,41 @@
+*{
+  font-family: sans-serif;
+}
+.inputBox{
+  border: 1px solid grey;
+  margin: 10px;
+  text-align: right;
+}
+h1{
+  text-align: center;
+  background-color: #69a3d5;
+  margin: 0;
+  padding: 20px;
+  color: white;
+}
+.input{
+  display: block;
+  padding: 10px;
+  border-right: 0;
+  border-left: 0px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  width: 95.5%;
+}
+h3{
+  display: block;
+  margin: 0;
+  text-align: start;
+  padding: 10px;
+}
+.postButton{
+  padding: 5px 30px;
+  border-radius: 7px;
+  background-color: #69a3d5;
+  color: white;
+  border: 0px;
+  margin: 6px;
+}
+#avatar{
+  height: 60px;
+}
