@@ -1,6 +1,12 @@
 *{
   font-family: sans-serif;
 }
+main{
+  width: 580px;
+  border: 1px solid grey;
+  margin: auto;
+  height: 100%;
+}
 .inputBox{
   border: 1px solid grey;
   margin: 10px;
@@ -20,13 +26,16 @@ h1{
   border-left: 0px;
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
-  width: 95.5%;
+  width: 96.5%;
 }
 h3{
   display: block;
   margin: 0;
   text-align: start;
   padding: 10px;
+}
+h2{
+  margin: 0;
 }
 .postButton{
   padding: 5px 30px;
@@ -36,6 +45,56 @@ h3{
   border: 0px;
   margin: 6px;
 }
+.content{
+  display: flex;
+}
 #avatar{
-  height: 60px;
+  margin-top: 45px;
+    margin-left: 27px;
+    border-radius: 45px;
+    width: 90px;
+    height: 90px;
+    margin-right: -2px;
+}
+.post{
+  display: inline-block;
+    margin: auto;
+    padding: 0px;
+}
+p{
+  font-size: 10px;
+}
+.box{
+  position: relative;
+  border: 1px solid grey;
+  /* width: 370px; */
+  max-width: 380px;
+  margin: auto;
+  padding: 10px;
+  top: 17px;
+}
+.bubbleBox::before{
+  content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 20px solid grey;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    left: -7%;
+    top: 10px;
+}
+
+.bubbleBox::after{
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 20px solid white;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+left: -6.5%;
+top: 10px;
 }
